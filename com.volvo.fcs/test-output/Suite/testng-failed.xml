@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="com.volvo.fcs.PrepareEquipment">
+        <methods>
+          <include name="MozillaBrowserOpen"/>
+          <include name="AdminstratorTab"/>
+          <include name="SaveEquipment"/>
+          <include name="PrepareEquipmentPage"/>
+          <include name="ClickingAddEquipmentButton"/>
+          <include name="DeleteEquipment"/>
+          <include name="EquipmentDetails"/>
+        </methods>
+      </class> <!-- com.volvo.fcs.PrepareEquipment -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RegressionTest">
+  
+  <test name="PrepareEquipment">
+    <classes>
+      <class name="testNGClass.PrepareEquipment"/>            
+    </classes>    
+  </test> <!-- Test -->
+  
+  <test name="PrepareReports">
+     <classes>
+           <class name="testNGClass.PrepareReports"/> 
+    </classes>
+  </test>
+    
+</suite> <!-- Suite -->

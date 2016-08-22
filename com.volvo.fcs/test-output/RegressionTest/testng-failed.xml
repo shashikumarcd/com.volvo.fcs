@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RegressionTest]">
+  <test name="PrepareEquipment(failed)">
+    <classes>
+      <class name="testNGClass.PrepareEquipment">
+        <methods>
+          <include name="BrowserOpen"/>
+          <include name="SaveEquipment"/>
+          <include name="EquipmentDetails"/>
+          <include name="BrowserClose"/>
+          <include name="ClickingAddEquipmentButton"/>
+          <include name="DeleteEquipment"/>
+          <include name="PrepareEquipmentPage"/>
+        </methods>
+      </class> <!-- testNGClass.PrepareEquipment -->
+    </classes>
+  </test> <!-- PrepareEquipment(failed) -->
+  <test name="PrepareReports(failed)">
+    <classes>
+      <class name="testNGClass.PrepareReports">
+        <methods>
+          <include name="AdministratorTab"/>
+          <include name="AddPrepareReports"/>
+          <include name="DeletePrepareReports"/>
+          <include name="PrepareReport"/>
+        </methods>
+      </class> <!-- testNGClass.PrepareReports -->
+      <class name="testNGClass.PrepareEquipment">
+        <methods>
+          <include name="BrowserOpen"/>
+          <include name="BrowserClose"/>
+        </methods>
+      </class> <!-- testNGClass.PrepareEquipment -->
+    </classes>
+  </test> <!-- PrepareReports(failed) -->
+</suite> <!-- Failed suite [RegressionTest] -->
