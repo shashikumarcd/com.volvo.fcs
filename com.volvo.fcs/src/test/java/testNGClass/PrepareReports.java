@@ -25,7 +25,8 @@ public class PrepareReports extends OpenBrowser {
   }
    
   @Test(dependsOnMethods="PrepareReport")
-  public void AddPrepareReports() {      
+  public void AddPrepareReports() {    
+      
           driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
           driver.findElement(By.xpath("//a[text()='Add']")).click(); 
           //Pass Report Id
@@ -54,6 +55,7 @@ public class PrepareReports extends OpenBrowser {
   
   @Test(dependsOnMethods="AddPrepareReports")
   public void DeletePrepareReports() { 
+      
           //Identifiying Fliter option
           driver.findElement(By.xpath("//*[@id='PrepareReportGrid']/div[2]/div/table/thead/tr/th[1]/a[1]/span[@class='k-icon k-i-arrowhead-s']")).click();
           driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);

@@ -20,36 +20,30 @@ public class OpenBrowser {
     @BeforeClass
     public void BrowserOpen() throws IOException, InterruptedException
     {
-        driver = new FirefoxDriver();
-        driver.get("http://sesden794:8990");
-        Runtime.getRuntime().exec("C:\\Users\\A215776\\Desktop\\WindowAuthen.exe");
-        System.out.println("Browser Opened");
+            driver = new FirefoxDriver();
+            driver.get("http://sesden794:8990");
+            Runtime.getRuntime().exec("C:\\Users\\A215776\\Desktop\\WindowAuthen.exe");
+            System.out.println("Browser Opened");
     }  
 
        
     @AfterClass
-    public void BrowserClose() throws IOException, InterruptedException
-     {
-             
-         driver.quit();
-         System.out.println("Browser Closed");
-              
+    public void BrowserClose() throws IOException, InterruptedException     {  
+        
+             driver.quit();
+             System.out.println("Browser Closed");              
     }  
     
     @Test()
     public void AdministratorTab() {
         
-        //driver.manage().window().maximize();
-        System.out.println("Welcome to Factory Control System");
-        WebElement Admin = driver.findElement(Administrator);
-        Actions action = new Actions(driver);
-        action.moveToElement(Admin).click().build().perform();
-       
-        System.out.println("Clicked on Adminstrator Tab");
-        
-        
-        
-        
-    }
-    
+            //driver.manage().window().maximize();
+            System.out.println("Welcome to Factory Control System");
+            //Go to Administration Tab
+            WebElement Admin = driver.findElement(Administrator);
+            Actions action = new Actions(driver);
+            action.moveToElement(Admin).click().build().perform();       
+            System.out.println("Clicked on Adminstrator Tab");      
+              
+    }    
 }
