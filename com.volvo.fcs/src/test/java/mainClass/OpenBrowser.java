@@ -25,7 +25,6 @@ public class OpenBrowser {
             Runtime.getRuntime().exec("C:\\Users\\A215776\\Desktop\\WindowAuthen.exe");
             System.out.println("Browser Opened");
     }  
-
        
     @AfterClass
     public void BrowserClose() throws IOException, InterruptedException     {  
