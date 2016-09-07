@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testNGClass.PrepareReports">
+      <class name="testNGClass.FinishProductUnit">
         <methods>
-          <include name="BrowserOpen"/>
-          <include name="AddPrepareReports"/>
-          <include name="DeletePrepareReports"/>
-          <include name="PrepareReport"/>
-          <include name="AdministratorTab"/>
+          <include name="RetriveDeliveryID"/>
         </methods>
-      </class> <!-- testNGClass.PrepareReports -->
+      </class> <!-- testNGClass.FinishProductUnit -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

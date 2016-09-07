@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" output="target/classes" path="src/main/java">
-		<attributes>
-			<attribute name="optional" value="true"/>
-			<attribute name="maven.pomderived" value="true"/>
-		</attributes>
-	</classpathentry>
 	<classpathentry excluding="**" kind="src" output="target/classes" path="src/main/resources">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
@@ -41,5 +35,7 @@
 	<classpathentry kind="lib" path="C:/Users/A215776/Desktop/Selenium Docs/Jars/Cucumber Jars/gherkin-2.12.1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/A215776/Desktop/Selenium Docs/Jars/Cucumber Jars/junit-4.11.jar"/>
 	<classpathentry kind="lib" path="C:/Users/A215776/Desktop/Selenium Docs/Jars/Cucumber Jars/mockito-all-2.0.2-beta.jar"/>
+	<classpathentry kind="lib" path="C:/Users/A215776/Desktop/Selenium Docs/Jars/JDBC/jtds-1.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/A215776/Desktop/Selenium Docs/Jars/JDBC/sqljdbc-1.2.0.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
